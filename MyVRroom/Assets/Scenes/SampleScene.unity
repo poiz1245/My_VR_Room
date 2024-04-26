@@ -276,6 +276,37 @@ Transform:
   - {fileID: 1903427267}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &156025412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156025413}
+  m_Layer: 0
+  m_Name: ---------------LIGHTING---------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &156025413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156025412}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.151041, y: -3.7459075, z: 1.0861624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &163791980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1034,37 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1341015972}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &472483345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472483346}
+  m_Layer: 0
+  m_Name: '------------------XR------------------ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472483346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472483345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.151041, y: -3.7459075, z: 1.0861624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &481589231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4365,7 +4427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1493799910}
   m_Layer: 0
-  m_Name: ------------------Static------------------
+  m_Name: ----------------STATIC----------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6839,12 +6901,14 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1011966112}
-  - {fileID: 832575519}
-  - {fileID: 410087041}
-  - {fileID: 45340293}
+  - {fileID: 472483346}
   - {fileID: 915464994}
   - {fileID: 604638530}
+  - {fileID: 156025413}
+  - {fileID: 832575519}
+  - {fileID: 410087041}
   - {fileID: 1493799910}
+  - {fileID: 45340293}
   - {fileID: 1523192364}
   - {fileID: 1166717066}
   - {fileID: 1813914495}
